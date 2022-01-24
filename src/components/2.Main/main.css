@@ -34,7 +34,6 @@
 }
 .content_intro input[type="text" i] {
   padding-left: 1rem;
-  height: 3rem;
   font-size: 1rem;
   border: 1px solid #2d3561;
   width: 343px;
@@ -70,13 +69,15 @@
   .intro_img{
      display: none;
   }
+  .content_intro{
+    padding: 0 30px 0 30px;
+  }
   .content_intro h1{
-    font-size: 40px;
+    font-size: 38px;
+  }
+  .content_intro .search-box {
+    height: 45px;
+    width: 200px;
   }
 }
 
-@media (max-width: 320px){
-  .content_intro{
-    font-size: 32px;
-  }
-}

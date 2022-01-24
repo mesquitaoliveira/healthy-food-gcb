@@ -107,9 +107,14 @@ nav ul li a:hover {
     z-index: 1;
   }
 }
+@media screen and (max-width: 1330px){
+  padding: 137px 0 137px;
+
+}
 @media screen and (min-width: 320px) {
   .secao_header{
-    padding: 7px;
+    padding: 0  30px;
+    margin-bottom: 89.6px;
   }
 }
 

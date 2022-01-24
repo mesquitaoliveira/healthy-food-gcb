@@ -31,9 +31,9 @@
 }
 
 .content_about p {
-  font-family: Mulish;
-  font-style: normal;
-  font-weight: 700;
+  font-family: "Muli";
+ font-style: normal;
+    font-weight: normal;
   font-size: 16px;
   line-height: 27px;
   letter-spacing: 0.48px;
@@ -62,8 +62,14 @@
     display: none;
   }
   .content_about {
-    width: calc(100%);
-    padding: 144px 142px 127px 104px;
-    gap: 10px;
+    padding: 0 30px 0 30px;
+    gap: 8px;
+  }
+  .content_about h2{
+    line-height: 33px;
+  }
+  .content_about p{
+    font-size: 15px;
+    line-height: 17px;
   }
 }

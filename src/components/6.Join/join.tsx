@@ -13,7 +13,7 @@ function join() {
           Join our membership <br />
           to get special offer
         </h2>
-        <div className="search-box">
+        <div className="email-box">
           <input type="text" placeholder="Enter your email address" />
           <button type="button">Join</button>
         </div>
