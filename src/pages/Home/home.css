@@ -1,0 +1,67 @@
+/* =======Font Muli Adobe ==========*/
+@import url("https://use.typekit.net/odd4gqg.css");
+/* =======Font Muli Adobe ==========*/
+/* =========Font Montserrat==========*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+/* =========Font Montserrat==========*/
+
+:root {
+  ---AlturaMaxMain: 48rem; /* 768px*/
+  ---Background: #ffffff;
+  ---MargemNavbar: 137px;
+  ---MargemMenu: 32px;
+  ---Color1: #badc58;
+  ---ColorText2: #1d164d;
+  ---h1Fontsize: 3rem; /* 48px*/
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(---Background);
+  overflow-x: hidden;
+}
+
+/*=========Template======= */
+.template {
+  position: relative;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+/*=======Seção Footer========*/
+footer {
+  width: 100%;
+  height: 103px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Mulish;
+  font-weight: normal;
+  font-size: 16px;
+}
+footer p {
+  color: #1d164d;
+  padding-left: 137px;
+}
+footer a {
+  padding-left: 32px;
+  padding-right: 32px;
+  text-decoration: none;
+  color: #9e9baf;
+}
+/*=======(Fim) Seção Footer========*/
+.h1,
+h2,
+h3 {
+  font-family: "Montserrat";
+}
+
+button {
+  font-family: "Muli";
+}

@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Mulish:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap");
+
+body {
+  background-color: var(---Background);
+  overflow-x: hidden;
+}
+
+/*========= (Início) Menu Area======= */
+.secao_header {
+  width: 100%;
+  display: flex;
+  top: 0px;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: var(---MargemNavbar);
+  padding-right: var(---MargemNavbar);
+}
+
+.logo {
+  text-decoration: none;
+  width: 225px;
+  margin: 30px 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: #badc58;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: var(---MargemMenu);
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 0px;
+  letter-spacing: 0.32px;
+  color: var(---Background);
+  transition: all 0.25s ease-in-out;
+  text-transform: uppercase;
+  padding: 13px 17px;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: var(---Background);
+  color: var(---Color1);
+}
+
+#active {
+  background-color: #ffffff;
+  color: #badc58;
+}
+
+#active:hover {
+  color: #ffffff;
+  background-color: #badc58;
+}
+/*========= (Fim) Menu Area======= */
+/*======Hamburguer Menu========*/
+.nav__toggler {
+  display: none;
+}
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: #badc58;
+  transition: 0.3s ease-in;
+}
+.nav__menu {
+  overflow-x: hidden;
+}
+
+/*======Hamburguer Menu========*/
+@media screen and (max-width: 1200px) {
+  
+
+  .nav__toggler {
+    display: block;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .nav__menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background: #91d262;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+}
+@media screen and (min-width: 320px) {
+  .secao_header{
+    padding: 7px;
+  }
+}
+
+
+
+
+
+/* Classe atctive */
+.nav__active {
+  transform: translateX(0%);
+}
+
+/* Animação Icone*/
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+}

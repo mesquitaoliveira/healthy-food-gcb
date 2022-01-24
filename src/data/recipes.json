@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "ImagemComida": "/src/assets/comida_1.svg",
+    "Titulo_do_Produto": "Broccoli Salad with Bacon"
+  },
+  {
+    "id": "2",
+    "ImagemComida": "/src/assets/comida_2.svg",
+    "Titulo_do_Produto": "Classic Beef Burgers"
+  },
+  {
+    "id": "3",
+    "ImagemComida": "/src/assets/comida_3.svg",
+    "Titulo_do_Produto": "Classic Potato Salad"
+  },
+  {
+    "id": "4",
+    "ImagemComida": "/src/assets/comida_4.svg",
+    "Titulo_do_Produto": "Cherry Cobbler on the Grill"
+  }
+]
